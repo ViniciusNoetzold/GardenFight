@@ -42,7 +42,7 @@ Siga os passos abaixo para configurar e rodar o projeto em sua máquina.
 
 **1. Clone o repositório:**
 ```bash
-git clone https://github.com/seu-usuario/ataque-a-horta.git
+git clone https://github.com/ViniciusNoetzold/GardenFight.git
 cd ataque-a-horta
 ```
 *(Lembre-se de substituir `seu-usuario` pelo seu nome de usuário no GitHub)*
@@ -100,9 +100,7 @@ python main.py
 
 ## 📜 Licença
 
-Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes. Sinta-se à vontade para usar, modificar e distribuir para fins educacionais e pessoais.
-
-*(Sugestão: Crie um arquivo chamado `LICENSE` na raiz do projeto e coloque o texto da licença MIT nele. Isso é uma prática padrão.)*
+Sinta-se à vontade para usar, modificar e distribuir para fins educacionais e pessoais.
 
 ---
 
