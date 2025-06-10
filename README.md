@@ -16,15 +16,6 @@
 
 ---
 
-## 🖼️ Prévia
-
-<p align="center">
-  <img src="recursos/startScreen.png" width="400" alt="Tela Inicial do Jogo">
-  <img src="recursos/background.png" width="400" alt="Gameplay do Jogo">
-</p>
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 - **[Python](https://www.python.org/)**: Linguagem de programação principal.
@@ -45,7 +36,6 @@ Siga os passos abaixo para configurar e rodar o projeto em sua máquina.
 git clone https://github.com/ViniciusNoetzold/GardenFight.git
 cd ataque-a-horta
 ```
-*(Lembre-se de substituir `seu-usuario` pelo seu nome de usuário no GitHub)*
 
 **2. Crie e ative um ambiente virtual (recomendado):**
 ```bash
@@ -74,7 +64,6 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-
 ---
 
 ## 📁 Estrutura do Projeto
