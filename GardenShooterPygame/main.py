@@ -5,7 +5,7 @@ from comandos import startDatabase, cleanScreen, timeWait, nameInput, tela_boas_
 from tkinter import messagebox
 import json
 
-# Set working directory to script's location
+# --- Configurações Iniciais ---
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 pygame.init()
@@ -185,7 +185,7 @@ def game_over():
     except FileNotFoundError:
         ultimos_registros = []
 
-    fonte_botao = pygame.font.SysFont('comicsans', 30)
+    fonte_botao = pygame.font.SysFont('Sans Serif', 30)
     texto_restart = fonte_botao.render("Jogar Novamente", True, preto)
     texto_sair = fonte_botao.render("Sair", True, preto)
     botao_restart = texto_restart.get_rect(center=(largura // 2, altura // 2 + 150))
@@ -206,15 +206,12 @@ def game_over():
                     sys.exit()
 
         tela.blit(tela_de_morte, (0, 0))
-        # fonte_gameover = pygame.font.SysFont('comicsans', 72)
-        # texto_gameover = fonte_gameover.render("GAME OVER", True, (255, 0, 0))
-        # tela.blit(texto_gameover, (largura // 2 - texto_gameover.get_width() // 2, altura // 4))
 
-        fonte_pontuacao = pygame.font.SysFont('comicsans', 32)
+        fonte_pontuacao = pygame.font.SysFont('Sans Serif', 32)
         texto_pontos = fonte_pontuacao.render(f"Pontuação final: {pontuacao}", True, branco)
         tela.blit(texto_pontos, (largura // 2 - texto_pontos.get_width() // 2, altura // 2 - 50))
 
-        fonte_registro = pygame.font.SysFont('comicsans', 20)
+        fonte_registro = pygame.font.SysFont('Sans Serif', 20)
         y_offset = altura // 2
         for registro in reversed(ultimos_registros):
             registro_limpo = registro.strip()
