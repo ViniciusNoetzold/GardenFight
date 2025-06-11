@@ -1,3 +1,6 @@
+##Testador do jogo: Luís Eduardo Köche RA:1138427
+
+
 # 🎮 Ataque à Horta
 
 **Ataque à Horta** é um jogo interativo de desvio de projéteis desenvolvido em Python com a biblioteca Pygame. Controle um personagem que deve sobreviver a um ataque inimigo, acumulando a maior pontuação possível. O jogo se destaca por funcionalidades como reconhecimento de voz para entrada de nome e síntese de fala, tornando a experiência mais imersiva e acessível.
