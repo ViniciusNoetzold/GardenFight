@@ -148,7 +148,7 @@ def iniciar_jogo():
 
         # --- LÓGICA DE DESENHO ---
         # 1. Atualiza e desenha a animação sobre o fundo
-        sun_angle += 0.5
+        sun_angle += 0.5 
         cloud_x += cloud_direction * 0.2
         if cloud_x < 40 or cloud_x > largura - 40:
             cloud_direction *= -1

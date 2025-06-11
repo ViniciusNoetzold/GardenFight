@@ -16,7 +16,7 @@ arquivos_para_incluir = ["recursos/", "comandos.py"]
 # Adicionamos "aifc" que causou o erro anterior
 pacotes_extras = ["pygame", "tkinter", "pyttsx3", "speech_recognition", "aifc"]
 
-# --- DEFINIÇÃO DO EXECUTÁVEL ---
+# --- DEFINIÇÃO DO EXECUTÁVEL ---s
 
 executavel = [
     Executable(
